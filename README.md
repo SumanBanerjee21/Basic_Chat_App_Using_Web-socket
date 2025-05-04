@@ -6,7 +6,6 @@
 
 A modern, real-time chat application built with WebSockets, providing a seamless and responsive communication experience. ChatterBox allows multiple users to connect to a central server and exchange messages in real-time.
 
-![ChatterBox Demo](https://via.placeholder.com/800x400?text=ChatterBox+Demo)
 
 ## ✨ Features
 
@@ -39,7 +38,7 @@ A modern, real-time chat application built with WebSockets, providing a seamless
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/chatterbox.git
+   git clone https://github.com/SumanBanerjee21/Basic_Chat_App_Using_Web-socket.git
    cd chatterbox
    ```
 
@@ -135,7 +134,7 @@ ChatterBox uses a simple protocol for communication:
 ```javascript
 {
     "type": "user_message", // Message type (user_message, join, leave, system)
-    "username": "John",     // Sender's username
+    "username": "Suman",     // Sender's username
     "message": "Hello!"     // Message content
 }
 ```
@@ -214,9 +213,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📬 Contact
 
-If you have any questions or feedback, please reach out to [your-email@example.com](mailto:your-email@example.com)
+If you have any questions or feedback, please reach out to [indsumanttt2002@gmail.com](mailto:indsumanttt2002@gmail.com)
 
 ---
 
-Built with ❤️ by [Your Name]
+Built with ❤️ by Suman Banerjee
 
