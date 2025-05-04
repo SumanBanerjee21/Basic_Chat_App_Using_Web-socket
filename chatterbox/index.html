@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatterBox - WebSocket Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            ChatterBox
+            <div class="connection-status">
+                <div class="status-indicator" id="status-light"></div>
+                <span id="connection-text">Disconnected</span>
+            </div>
+        </div>
+
+        <div id="username-setup" class="username-container">
+            <h3>Choose your username</h3>
+            <input type="text" id="username-input" placeholder="Enter username...">
+            <button id="start-chat-btn">Start Chatting</button>
+        </div>
+
+        <div id="chat-interface" class="hidden">
+            <div class="chat-messages" id="chat">
+                <!-- Messages will appear here -->
+            </div>
+            
+            <div class="emoji-picker">
+                <span class="emoji" onclick="addEmoji('😊')">😊</span>
+                <span class="emoji" onclick="addEmoji('👍')">👍</span>
+                <span class="emoji" onclick="addEmoji('😂')">😂</span>
+                <span class="emoji" onclick="addEmoji('❤️')">❤️</span>
+                <span class="emoji" onclick="addEmoji('🎉')">🎉</span>
+                <span class="emoji" onclick="addEmoji('🔥')">🔥</span>
+                <span class="emoji" onclick="addEmoji('👋')">👋</span>
+                <span class="emoji" onclick="addEmoji('🤔')">🤔</span>
+            </div>
+            
+            <div class="chat-input">
+                <input id="message" type="text" placeholder="Type a message..." autocomplete="off">
+                <button id="send-btn" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
