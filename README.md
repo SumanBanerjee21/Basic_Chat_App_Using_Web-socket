@@ -39,7 +39,7 @@ A modern, real-time chat application built with WebSockets, providing a seamless
 1. **Clone the repository**
    ```bash
    git clone https://github.com/SumanBanerjee21/Basic_Chat_App_Using_Web-socket.git
-   cd chatterbox
+   cd Basic_Chat_App_Using_Web-socket
    ```
 
 2. **Install dependencies**
